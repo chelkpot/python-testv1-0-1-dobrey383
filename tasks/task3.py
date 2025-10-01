@@ -4,8 +4,8 @@
 
 def solve():
 # Ниже пишите решение задачии(Обязательно поставьте четыре пробела после функции Solve())
-    weight = int(input("Введите первое число:"))
-    height = int(input("Введите второе число:"))
+    weight = float(input("Введите первое число:"))
+    height = float(input("Введите второе число:"))
     height2 = height**2
     print(weight/height2)
    
